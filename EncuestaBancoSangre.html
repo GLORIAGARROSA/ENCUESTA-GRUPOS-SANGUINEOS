@@ -1,0 +1,35 @@
+<html>
+<meta charset="utf-8">
+
+<body>
+	<form style="margin:20px" action="graficaEncuesta.php" method="POST">	
+		<table style="margin:20px" >
+		<h2> ENCUESTA BANCO SANGRE</h2>
+		<h3>¿sabes tu grupo sanguineo?</h3>		
+			<tr>			
+			<td>
+				<input type="radio" name="votos" value="desconocido" checked="checked"/>desconocido<br>
+				<input type="radio" name="votos" value="grupo A+"  />grupo A+<br>
+				<input type="radio" name="votos" value="grupo A-"/>grupo A-<br>
+				<input type="radio" name="votos" value="grupo B+"/>grupo B+<br>
+				<input type="radio" name="votos" value="grupo B-"/>grupo B-<br>
+				<input type="radio" name="votos" value="grupo AB+"/>grupo AB+<br>
+				<input type="radio" name="votos" value="grupo AB-"/>grupo AB-<br>
+				<input type="radio" name="votos" value="grupo O+"/>grupo O+<br>
+				<input type="radio" name="votos" value="grupo O-"/>grupo O-<br>
+				<input type="radio" name="votos" value="otros"/>otros<br>
+												
+			</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Votar"> 
+				</td>
+			</tr>
+		</table>
+		</form>
+
+	<div id="imprimeEncuesta">	</div>		
+		
+</body>
+</html>
